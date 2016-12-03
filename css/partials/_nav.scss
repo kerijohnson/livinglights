@@ -1,0 +1,112 @@
+h1, h2, h3 h4, h5, h6, p, li, body {
+margin:0px;
+padding:0px;
+}
+
+#header {
+position: fixed;
+background-color: black;
+height: 100px;
+overflow: hidden;
+padding: 20px;
+width: 100%;
+z-index: 100;
+border-bottom: 1px solid white;
+}
+
+nav ul {
+  float: right;
+  margin:0px;
+  padding-right:50px;
+  border:0px;
+  list-style-type: none;
+  height:30px
+}
+
+#header ul li {
+float:left;
+display: inline;
+display:list-item;
+padding: 30px;
+padding-top: 50px;
+}
+
+.logo{
+  height: 140px;
+  padding-left: 40px;
+  padding-top: 0px;
+  margin-top: 0;
+}
+
+
+ul li a {
+  text-decoration:none;
+  color:#fff;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  transition:all 0.4s ease-in-out;
+  background-color:#000;
+  padding:12px;
+  font-size: 18px;
+}
+
+.history:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#103559;
+  padding:70px 12px 12px 12px;
+}
+
+.history ul li a.active {
+ padding:70px 12px 12px 12px;
+ background-color:#103559;
+}
+
+.science:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#a9d416;
+  padding:12px 12px 46px 12px;
+}
+
+.science ul li a.active {
+ padding:12px 12px 46px 12px;
+ background-color:#a9d416;
+}
+
+.animals:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#460049;
+  padding:70px 12px 12px 12px;
+}
+
+.animals ul li a.active {
+ padding:70px 12px 12px 12px;
+ background-color:#460049;
+}
+
+.getinvolved:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#890426;
+  padding:12px 12px 46px 12px;
+}
+
+.getinvolved ul li a.active {
+ padding:12px 12px 46px 12px;
+ background-color:#890426;
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+}
+
+.museum {
+  float: left;
+}
+
+.cree {
+  float: right;
+}

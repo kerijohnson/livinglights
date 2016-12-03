@@ -1,1 +1,149 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins');
+
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.banner {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  max-width: 100%;
+  position: absolute;
+  z-index: -100;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.bannertext {
+  text-align: center;
+  margin-top: 300px;
+  z-index: 50;
+}
+
+.abouttext {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.aboutcontainer {
+  background-color: black;
+  border-bottom: 3px solid white;
+}
+
+.articlecontainer {
+  position: relative;
+  background-color: black;
+}
+
+article {
+  width: 33.2%;
+  height: 300px;
+  float: left;
+  border-right: 1px solid white;
+}
+
+
+
+.historyarticle {
+  background-image: url("../images/thehistory.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.historyarticle .overlay {
+  opacity: 0;
+  
+}
+
+.historyarticle:hover .overlay {
+  opacity: 1;
+}
+
+.historyarticle:hover{
+  background:
+     linear-gradient(0deg,
+     rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+     url("../images/thehistory.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.animalsarticle {
+  background-image: url("../images/theanimals.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.animalsarticle .overlay {
+  opacity: 0;
+}
+
+.animalsarticle:hover .overlay {
+  opacity: 1;
+}
+
+.animalsarticle:hover{
+  background:
+     linear-gradient(0deg,
+     rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+     url("../images/theanimals.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sciencearticle {
+  background-image: url("../images/thescience.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sciencearticle .overlay {
+  opacity: 0;
+}
+
+.sciencearticle:hover .overlay {
+  opacity: 1;
+}
+
+.sciencearticle:hover{
+  background:
+     linear-gradient(0deg,
+     rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+     url("../images/thescience.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+article h2 {
+text-align: center;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}

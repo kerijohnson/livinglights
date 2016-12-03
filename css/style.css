@@ -1,58 +1,208 @@
-/*
-Error: File to import not found or unreadable: partials/science.
-       Load path: /Users/kerijohnson/Desktop/GitHub/livinglights/css
-        on line 4 of css/style.scss
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins");
+h1, h2, h3 h4, h5, h6, p, li, body {
+  margin: 0px;
+  padding: 0px; }
 
-1: @import "partials/colorfont";
-2: @import "partials/nav";
-3: @import "partials/home";
-4: @import "partials/science";
-5: @import "partials/history";
-6: @import "partials/animals";
-7: @import "partials/getinvolved";
+#header {
+  position: fixed;
+  background-color: black;
+  height: 100px;
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid white; }
 
-Backtrace:
-css/style.scss:4
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/science.\A        Load path: /Users/kerijohnson/Desktop/GitHub/livinglights/css\A         on line 4 of css/style.scss\A \A 1: @import \"partials/colorfont\";\A 2: @import \"partials/nav\";\A 3: @import \"partials/home\";\A 4: @import \"partials/science\";\A 5: @import \"partials/history\";\A 6: @import \"partials/animals\";\A 7: @import \"partials/getinvolved\";"; }
+nav ul {
+  float: right;
+  margin: 0px;
+  padding-right: 50px;
+  border: 0px;
+  list-style-type: none;
+  height: 30px; }
+
+#header ul li {
+  float: left;
+  display: inline;
+  display: list-item;
+  padding: 30px;
+  padding-top: 50px; }
+
+.logo {
+  height: 140px;
+  padding-left: 40px;
+  padding-top: 0px;
+  margin-top: 0; }
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
+  background-color: #000;
+  padding: 12px;
+  font-size: 18px; }
+
+.history:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #103559;
+  padding: 70px 12px 12px 12px; }
+
+.history ul li a.active {
+  padding: 70px 12px 12px 12px;
+  background-color: #103559; }
+
+.science:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #a9d416;
+  padding: 12px 12px 46px 12px; }
+
+.science ul li a.active {
+  padding: 12px 12px 46px 12px;
+  background-color: #a9d416; }
+
+.animals:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #460049;
+  padding: 70px 12px 12px 12px; }
+
+.animals ul li a.active {
+  padding: 70px 12px 12px 12px;
+  background-color: #460049; }
+
+.getinvolved:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #890426;
+  padding: 12px 12px 46px 12px; }
+
+.getinvolved ul li a.active {
+  padding: 12px 12px 46px 12px;
+  background-color: #890426; }
+
+footer {
+  height: 100px;
+  background-color: black; }
+
+.museum {
+  float: left; }
+
+.cree {
+  float: right; }
+
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 60px;
+  color: white; }
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 3px; }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 2; }
+
+.banner {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+video {
+  max-width: 100%;
+  position: absolute;
+  z-index: -100;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.bannertext {
+  text-align: center;
+  margin-top: 300px;
+  z-index: 50; }
+
+.abouttext {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.aboutcontainer {
+  background-color: black;
+  border-bottom: 3px solid white; }
+
+.articlecontainer {
+  position: relative;
+  background-color: black; }
+
+article {
+  width: 33.2%;
+  height: 300px;
+  float: left;
+  border-right: 1px solid white; }
+
+.historyarticle {
+  background-image: url("../images/thehistory.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.historyarticle .overlay {
+  opacity: 0; }
+
+.historyarticle:hover .overlay {
+  opacity: 1; }
+
+.historyarticle:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/thehistory.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.animalsarticle {
+  background-image: url("../images/theanimals.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.animalsarticle .overlay {
+  opacity: 0; }
+
+.animalsarticle:hover .overlay {
+  opacity: 1; }
+
+.animalsarticle:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/theanimals.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.sciencearticle {
+  background-image: url("../images/thescience.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.sciencearticle .overlay {
+  opacity: 0; }
+
+.sciencearticle:hover .overlay {
+  opacity: 1; }
+
+.sciencearticle:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/thescience.jpg");
+  background-size: cover;
+  background-position: center; }
+
+article h2 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+/*# sourceMappingURL=style.css.map */
