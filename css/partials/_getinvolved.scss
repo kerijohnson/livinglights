@@ -1,1 +1,103 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada%7COswald%7CPoppins');
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+
+video {
+  max-width: 100%;
+  position: absolute;
+}
+
+.photo {
+  height: 600px;
+  overflow: hidden;
+  border-bottom: 2px solid $red;
+  // background-color: red;
+}
+
+.photoproject, .photoexhibit {
+  height: 500px;
+  position: relative;
+  border-bottom: 2px solid $red;
+}
+
+.dino {
+  float: left;
+  height: 500px;
+  position: relative;
+  width: 50%;
+}
+
+.dinoinfo {
+  float: right;
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.textbox  {
+  background-color: black;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.textbox p{
+  padding-top: 10px;
+}
+
+.textboxproject, .textboxexhibit {
+  clear: both;
+  background-color: black;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid $red;
+}
+
+.biopop {
+  text-align: center;
+  max-width: 25%;
+  max-height: 50%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.kids {
+  float: left;
+  height: 500px;
+  position: relative;
+  width: 49.9%;
+  border-right: 1px solid $red;
+}
+
+.fireflies {
+  float: right;
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+h2 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.textboxexhibit p {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.textboxexhibit img {
+  text-align: center;
+  max-width: 25%;
+  max-height: 25%;
+
+}
