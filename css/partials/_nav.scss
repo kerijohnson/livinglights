@@ -99,14 +99,22 @@ ul li a {
 }
 
 footer {
+  clear: both;
   height: 100px;
   background-color: black;
+  border-top: 1px solid white;
 }
 
 .museum {
   float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
 .cree {
   float: right;
+  width: 20%;
+  padding-right: 20px;
+  padding-top: 10px;
 }
